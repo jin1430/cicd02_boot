@@ -14,7 +14,7 @@ jobs:
         uses: appleboy/ssh-action@v1.0.3 # appleboy/ssh-action이라는 오픈소스 GitHub Action을 사용하여 EC2 인스턴스에 SSH로 접속
         env:
           APPLICATION_PROPERTIES: ${{ secrets.APPLICATION_PROPERTIES }}
-        withwith:
+        with:
           host: ${{ secrets.EC2_HOST }} # EC2의 주소
           username: ${{ secrets.EC2_USERNAME }} # EC2 접속 username
           key: ${{ secrets.EC2_PRIVATE_KEY }} # EC2의 Key 파일의 내부 텍스트
