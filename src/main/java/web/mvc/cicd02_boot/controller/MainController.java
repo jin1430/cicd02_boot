@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @GetMapping("/")
     public String index(){
-        return "GitHub Actions-월의 시작입니다";
+        return "GitHub Actions-6월의 시작입니다";
     }
 }

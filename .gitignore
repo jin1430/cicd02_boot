@@ -6,7 +6,7 @@ build/
 !**/src/test/**/build/
 
 application.*
-
+docker-compose.yml
 ### STS ###
 .apt_generated
 .classpath
